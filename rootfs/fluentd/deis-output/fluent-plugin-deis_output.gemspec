@@ -6,10 +6,10 @@ Gem::Specification.new do |gem|
   gem.name          = "fluent-plugin-deis_output"
   gem.version       = "0.1.0"
   gem.authors       = ["engineering@deis"]
-  gem.email         = ["engineering@deis.com"]
+  gem.email         = ["engineering@deis.cc"]
   gem.description   = %q{Fluentd output plugin for sending data to Deis Components }
   gem.summary       = %q{Fluentd output plugin for sending data to Deis Components}
-  gem.homepage      = "https://github.com/teamhephy/fluentd"
+  gem.homepage      = "https://github.com/deiscc/fluentd"
   gem.license       = "ASL2"
 
   gem.files         = Dir.glob("{lib}/**/*") + %w(LICENSE README.md)
